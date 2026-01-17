@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Board</title>
+    <!-- Link External CSS File -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Link Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- Font Awesome CDN Link -->
+     <script src="https://kit.fontawesome.com/27daea0603.js" crossorigin="anonymous"></script>
+     <!-- Poppins Font CDN Link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primaryColor: #3752FD;
+        --color-borderColor: #3751fd23;
+      }
+    </style>
 </head>
 <body class="bg-[#f4f7ff] font-[Poppins]">
-    
+    <header>
+        <nav class="w-11/12 2xl:w-10/12 mx-auto bg-[#ffffff] p-4 rounded-lg shadow-sm mt-4 flex justify-between items-center mb-4">
+            
+        </nav>
+    </header>
+    <main class="w-11/12 2xl:w-10/12 mx-auto flex flex-col lg:flex-row gap-4 pb-12">
+        <section class="w-full lg:w-8/12 2xl:w-9/12 bg-[#ffffff] p-4 rounded-lg shadow-sm mt-6">
+            
+        </section>
+        <aside class="w-full lg:w-4/12 2xl:w-3/12 bg-[#ffffff] p-6 rounded-lg shadow-sm mt-6 text-center">
+            
+        </aside>
+    </main>
+    <script src="/script.js"></script>
 </body>
 </html>
