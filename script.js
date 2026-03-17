@@ -56,4 +56,9 @@ document
     completeButtonTask("complete-btn-six", "complete-heading-six");
   });
 
-
+// clear button functionality
+document
+  .getElementById("clear-history-btn")
+  .addEventListener("click", function () {
+    document.getElementById("message-container").innerText = "";
+  });

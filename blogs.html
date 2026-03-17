@@ -31,27 +31,43 @@
         <!-- Blogs 1 -->
          <div class="mt-5 bg-[#ffffff] py-3 rounded-lg shadow-sm">
             <h5 class="text-lg font-bold border-b border-dashed border-[#3751fd23] pb-3 mb-3 pl-5">Question-1: What are the different ways to select an element in the DOM?</h5>
-            <p class="text-[#00303C] pl-5">Dom is Document Object Model.</p>
+            <p class="text-[#00303C] pl-5">
+                1. document.getElementById(); <br>
+                2. document.getElementsByClassName(); <br>
+                3. document.getElementByTagName(); <br>
+                4. document.querySelector(); <br>
+                5. document.querySelectorAll();
+            </p>
          </div>
         <!-- Blogs 2 -->
          <div class="mt-5 bg-[#ffffff] py-3 rounded-lg shadow-sm">
             <h5 class="text-lg font-bold border-b border-dashed border-[#3751fd23] pb-3 mb-3 pl-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h5>
-            <p class="text-[#00303C] pl-5">Dom is Document Object Model.</p>
+            <p class="text-[#00303C] pl-5">
+                textContent: যে কনন্টেন গুলো হাইড হয়ে আছে এবং ভিজিবল কনন্টেন আছে সেগুলো নিয়ে কাজ করে। <br>
+                innerText: শুধু ব্রাউজারে দেখায় এমন কনন্টেন ‍নিয়ে কাজ করে। <br>
+                innerHTML: পুরা এইচটিএমএল এলিমেন্ট নিয়ে কাজ করে।
+            </p>
          </div>
         <!-- Blogs 3 -->
          <div class="mt-5 bg-[#ffffff] py-3 rounded-lg shadow-sm">
             <h5 class="text-lg font-bold border-b border-dashed border-[#3751fd23] pb-3 mb-3 pl-5">Question-3: What is event delegation in the DOM?</h5>
-            <p class="text-[#00303C] pl-5">Dom is Document Object Model.</p>
+            <p class="text-[#00303C] pl-5"> ইভেন্ট ডেলিগেশন হচ্ছে হচ্ছে অনেক গুলো এলিমেন্টের জন্য একটাই ইভেন্ট লিসেনার রাখা এবং নতুন এলিমেন্ট যোগ হলো যেন সেই ইভেন লিসেনার কাজ করে। </p>
          </div>
         <!-- Blogs 4 -->
          <div class="mt-5 bg-[#ffffff] py-3 rounded-lg shadow-sm">
             <h5 class="text-lg font-bold border-b border-dashed border-[#3751fd23] pb-3 mb-3 pl-5">Question-4: What is event bubbling in the DOM?</h5>
-            <p class="text-[#00303C] pl-5">Dom is Document Object Model.</p>
+            <p class="text-[#00303C] pl-5">
+                ইভেন্ট বাবুলিং হচ্ছে নিচের এলিমেন্ট থেকে উপরের এলিমেন্টে বা চাইল্ড থেকে পেরেন্টে যাওয়া।
+            </p>
          </div>
         <!-- Blogs 5 -->
          <div class="mt-5 bg-[#ffffff] py-3 rounded-lg shadow-sm">
             <h5 class="text-lg font-bold border-b border-dashed border-[#3751fd23] pb-3 mb-3 pl-5">Question-5: How do you create, add, and remove elements using JavaScript?</h5>
-            <p class="text-[#00303C] pl-5">Dom is Document Object Model.</p>
+            <p class="text-[#00303C] pl-5">
+                create: ভেরিয়েবল সিলেক্ট করে document.createElement() ফাংশনের মাধ্যমে নতুন এলিমেন্ট তৈরি করব। <br>
+                add: প্রথমে পেরেন্ট এলিমেন্টকে ধরে appendChild() এর ভিরতে নতুন এলিমেন্ট দেওয়া।  <br>
+                remove: যে এলিমেন্ট ডিলিট করব ওই এ এলিমেন্ট parentNode দিয়ে ধরব, তারপর removeChild() এর ভিতর যে এলিমেন্টকে ডিলিট ঐ এলিমেন্টকে দিব।
+                 </p>
          </div>
     </main>
 </body>
